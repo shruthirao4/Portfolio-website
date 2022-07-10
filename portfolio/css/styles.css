@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@200;300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;700;800&display=swap');
+.navbarFont {
+    font-size: 20px !important;
+    font-family: 'Roboto Slab', serif !important;
+    /* font-family: 'Playfair Display', serif !important; */
+    /* font-family: 'Montserrat', sans-serif !important; */
+    font-weight: 300 !important;
+    padding-right: 30px!important;
+}
+
+.navbar_colour {
+    background-color: #e8e8f0;
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+}
+
+.homeText1 {
+    /* font-family: 'Arapey', serif; */
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #46474b;
+}
+
+.homeText2 {
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-weight: 400;
+    color: #46474b;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.opened {
+    color: navy !important;
+}
+
+a:hover {
+    color: black !important;
+}
+
+.home {
+    background-image: url(../img/bg.jpg);
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #46474b;
+}
+
+.homeText2::before {
+    content: "\00a0\00a0\00a0\00a0";
+    text-decoration: line-through;
+    color: #46474b;
+    text-decoration-thickness: 2px;
+}
+
+.homeText2::after {
+    content: "\00a0\00a0\00a0\00a0";
+    text-decoration: line-through;
+    color: #46474b;
+    text-decoration-thickness: 2px;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.background {
+    background-color: #e8e8f0;
+}
+
+.padding {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.middle {
+    text-align: center;
+}
+
+
+/* ABOUT ME */
+
+.about_me_text {
+    color: #46474b;
+}
+
+.contact {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
+    color: #46474b;
+}
+
+.heading {
+    font-family: 'Playfair Display', serif !important;
+    /* font-family: 'Roboto Slab', serif !important; */
+    font-size: 3rem;
+    /* font-family: 'Raleway', sans-serif; */
+    font-weight: 400;
+    color: #46474b !important;
+    padding-top: 5%;
+}
+
+@media screen and (max-width: 600px) {
+    .homeText1 {
+        font-size: 1.5rem;
+    }
+    .homeText2 {
+        font-size: 2.5rem;
+    }
+    .heading {
+        font-size: 2rem;
+    }
+}
+
+.heading_small {
+    font-family: 'Playfair Display', serif !important;
+    /* font-family: 'Roboto Slab', serif !important; */
+    font-size: 25px;
+    /* font-family: 'Raleway', sans-serif; */
+    font-weight: 400;
+    color: #46474b !important;
+    padding-top: 5%;
+}
+
+.heading_small::before {
+    content: "\00a0\00a0 ";
+    text-decoration: line-through;
+    color: #46474b;
+    text-decoration-thickness: 2px;
+}
+
+.heading_small::after {
+    content: "\00a0\00a0";
+    text-decoration: line-through;
+    color: #46474b;
+    text-decoration-thickness: 2px;
+}
+
+.heading::before {
+    content: "\00a0\00a0\00a0 ";
+    text-decoration: line-through;
+    color: #46474b;
+    text-decoration-thickness: 2px;
+}
+
+.heading::after {
+    content: "\00a0\00a0\00a0";
+    text-decoration: line-through;
+    color: #46474b;
+    text-decoration-thickness: 2px;
+}
+
+
+/* Scrollbar */
+
+
+/* width */
+
+body {
+    overflow: overlay;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #46474b;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #46474b;
+}
+
+
+/* Icons */
+
+.fa-github,
+.fa-linkedin,
+.fa-envelope {
+    color: #46474b;
+    font-size: 2em !important;
+}
+
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-envelope:hover {
+    color: #e8e8f0;
+    font-size: 2em;
+}
+
+.card:hover {
+    background-color: #46474b !important;
+    color: #e8e8f0 !important;
+}
+
+.btn:hover {
+    background-color: #e8e8f0;
+    color: #46474b !important;
+}
+
+
+/* .btn:hover {
+background-color: white;
+color: #46474b !important;
+} */
+
+.card {
+    border-radius: 8px !important;
+    margin-top: 3rem !important;
+}
+
+
+/* navbar */
+
+
+/* The side navigation menu */
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    z-index: 9998;
+}
+
+.fa-bars {
+    color: #46474b;
+    font-size: 2.5em !important;
+}
+
+.sidenav {
+    position: fixed;
+    /* Stay in place */
+    top: 0;
+    right: 0;
+    /* Position the navbar at the top of the page */
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    background-color: #46474b;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.3s;
+    /* 0.5 second transition effect to slide in the sidenav */
+    z-index: 9999;
+}
+
+
+/* The navigation menu links */
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover {
+    font-weight: 500;
+    color: blanchedalmond !important;
+}
+
+
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    z-index: 9999;
+}
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+/* timeline */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* The actual timeline (the vertical ruler) */
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* The actual timeline (the vertical ruler) */
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #46474b;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+
+/* Container around content */
+
+.container_timeline {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+
+/* The circles on the timeline */
+
+.container_timeline::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #e8e8f0;
+    border: 4px solid #46474b;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+/* Place the container to the left */
+
+.timeline_left {
+    right: 26%;
+}
+
+
+/* Place the container to the right */
+
+.timeline_right {
+    left: 26%;
+}
+
+
+/* Add arrows to the left container (pointing right) */
+
+.timeline_left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #46474b;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #46474b;
+}
+
+
+/* Add arrows to the right container (pointing left) */
+
+.timeline_right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #46474b;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #46474b transparent transparent;
+}
+
+
+/* .img-fluid {
+    max-width: 30rem;
+    max-height: 30rem;
+    float: right;
+    margin-right: 8rem;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+} */
+
+
+/* Fix the circle for containers on the right side */
+
+.timeline_right::after {
+    left: -16px;
+}
+
+
+/* The actual content */
+
+.content {
+    padding: 20px 10px 2px 10px;
+    background-color: #46474b;
+    color: #e8e8f0;
+    position: relative;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.card-title {
+    margin-top: 1rem;
+}
+
+.card-text {
+    text-align: left;
+}
+
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+
+@media screen and (max-width: 991px) {
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+    }
+    /* Full-width containers */
+    .container_timeline {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    /* Make sure that all arrows are pointing leftwards */
+    .container_timeline::before {
+        left: 60px;
+        border: medium solid #46474b;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #46474b transparent transparent;
+    }
+    /* Make sure all circles are at the same spot */
+    .timeline_left::after,
+    .timeline_right::after {
+        left: 15px;
+    }
+    /* Make all right containers behave like the left ones */
+    .timeline_right {
+        left: 0;
+    }
+    .timeline_left {
+        left: 0;
+    }
+    .card {
+        justify-content: center !important;
+        display: flex !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+}
+
+.image_me {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 20rem;
+    max-width: 100%;
+    margin: 0 auto;
+    float: right;
+    /* margin-right: 6rem; */
+}
+
+@media (max-width: 991px) {
+    .image_me {
+        max-width: 100%;
+        /* min-width: 80%; */
+        /* max-height: 100%; */
+        margin: auto;
+        float: none;
+    }
+}
+
+@media (max-width: 667px) {
+    .image_me {
+        max-width: 100%;
+        /* max-height: 100%; */
+        margin: auto;
+        float: none;
+    }
+}
